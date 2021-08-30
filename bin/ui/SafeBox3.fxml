@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="labTitle3" layoutX="180.0" layoutY="31.0" text="Safe Box">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnIntro2" layoutX="242.0" layoutY="235.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="167.0" style="-fx-background-color: coral;" text="Close Safe box">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label fx:id="lab3" layoutX="138.0" layoutY="66.0" text="Regist the actual combination ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="oPassword1" alignment="CENTER" layoutX="85.0" layoutY="86.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oPassword4" layoutX="243.0" layoutY="86.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oPassword3" alignment="CENTER" layoutX="188.0" layoutY="86.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oPassword2" alignment="CENTER" layoutX="138.0" layoutY="86.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oPassword5" layoutX="293.0" layoutY="86.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oPassword6" layoutX="344.0" layoutY="86.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nPassword6" alignment="CENTER" layoutX="344.0" layoutY="172.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nPassword5" alignment="CENTER" layoutX="293.0" layoutY="172.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nPassword4" alignment="CENTER" layoutX="243.0" layoutY="172.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nPassword3" alignment="CENTER" layoutX="188.0" layoutY="172.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nPassword2" alignment="CENTER" layoutX="138.0" layoutY="172.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nPassword1" alignment="CENTER" layoutX="85.0" layoutY="172.0" prefHeight="47.0" prefWidth="44.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnChangeP" layoutX="24.0" layoutY="235.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="167.0" style="-fx-background-color: coral;" text="Change it">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lab31" layoutX="144.0" layoutY="145.0" text="Regist the new combination ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
